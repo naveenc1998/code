@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.employee_payroll.model.AdminAttendance;
 import com.employee_payroll.repository.AdminAttendanceRepository;
 
-
+@EnableAutoConfiguration
 @SpringBootApplication
 public class SpringBootBackendApplication implements CommandLineRunner {
 	
