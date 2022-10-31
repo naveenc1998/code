@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.employee_payroll.domain.Employee;
 import com.employee_payroll.repository.EmployeeRepository;
 
+@EnableAutoConfiguration
 @SpringBootApplication
 public class EmployeePayrollApplication implements CommandLineRunner {
 
