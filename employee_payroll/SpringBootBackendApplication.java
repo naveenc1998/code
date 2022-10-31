@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.employee_payroll.model.AdminLeave;
 import com.employee_payroll.repository.AdminLeaveRepository;
 
+@EnableAutoConfiguration
 @SpringBootApplication
 public class SpringBootBackendApplication implements CommandLineRunner {
 @Autowired
